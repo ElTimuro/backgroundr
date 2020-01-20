@@ -51,7 +51,7 @@ namespace backgroundr
 
         private static bool IsNight()
         {
-            return DateTime.Now.Hour < 6;
+            return DateTime.Now.Hour >= 21 || DateTime.Now.Hour < 6;
         }
 
         private static bool IsMorning()
