@@ -6,7 +6,6 @@ namespace backgroundr
     class Program
     {
         private static int _updateIntervall = 60000;
-        private static string imageFolder = "";
         static void Main(string[] args)
         {
             while (true)

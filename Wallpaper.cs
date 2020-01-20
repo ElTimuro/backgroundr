@@ -4,6 +4,7 @@ using System.Drawing;
 using System.IO;
 using Microsoft.Win32;
 
+// From https://stackoverflow.com/questions/1061678/change-desktop-wallpaper-using-code-in-net#comment12939266_1061682
 public sealed class Wallpaper
 {
     Wallpaper() { }
