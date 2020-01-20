@@ -10,8 +10,14 @@ namespace backgroundr
         {
             while (true)
             {
-                checkBackground();
-                System.Threading.Thread.Sleep(_updateIntervall);
+                try
+                {
+                    checkBackground();
+                    System.Threading.Thread.Sleep(_updateIntervall);
+                }
+                catch (Exception)
+                {
+                }
             }
         }
 
