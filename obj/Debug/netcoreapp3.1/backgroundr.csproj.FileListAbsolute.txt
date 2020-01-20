@@ -9,3 +9,9 @@ C:\repos\backgroundr\obj\Debug\netcoreapp3.1\backgroundr.AssemblyInfoInputs.cach
 C:\repos\backgroundr\obj\Debug\netcoreapp3.1\backgroundr.AssemblyInfo.cs
 C:\repos\backgroundr\obj\Debug\netcoreapp3.1\backgroundr.dll
 C:\repos\backgroundr\obj\Debug\netcoreapp3.1\backgroundr.pdb
+C:\repos\backgroundr\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\repos\backgroundr\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\repos\backgroundr\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\repos\backgroundr\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\repos\backgroundr\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\repos\backgroundr\obj\Debug\netcoreapp3.1\backgroundr.csproj.CopyComplete

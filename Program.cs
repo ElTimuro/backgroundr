@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace backgroundr
 {
@@ -65,7 +66,7 @@ namespace backgroundr
 
         private static void setBackground(string backgroundImage)
         {
-
+            Wallpaper.Set(new Uri(Directory.GetCurrentDirectory() + "\\" + backgroundImage), Wallpaper.Style.Stretched);
         }
     }
 }
