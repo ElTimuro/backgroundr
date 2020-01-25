@@ -26,11 +26,6 @@ namespace backgroundr
             var now = DateTime.Now;
             var backgroundImage = "";
 
-            if (IsNight())
-            {
-                backgroundImage = "1.jpg";
-            }
-
             if (IsMorning())
             {
                 backgroundImage = "2.jpg";
@@ -44,6 +39,11 @@ namespace backgroundr
             if (IsEvening())
             {
                 backgroundImage = "4.jpg";
+            }
+
+            if (IsNight())
+            {
+                backgroundImage = "1.jpg";
             }
 
             setBackground(backgroundImage);
