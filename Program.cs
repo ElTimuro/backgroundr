@@ -56,12 +56,12 @@ namespace backgroundr
 
         private static bool IsMorning()
         {
-            return DateTime.Now.Hour > 6 && DateTime.Now.Hour < 9;
+            return DateTime.Now.Hour >= 6 && DateTime.Now.Hour < 9;
         }
 
         private static bool IsDay()
         {
-            return DateTime.Now.Hour > 9 && DateTime.Now.Hour < 18;
+            return DateTime.Now.Hour >= 9 && DateTime.Now.Hour < 18;
         }
 
         private static bool IsEvening()
